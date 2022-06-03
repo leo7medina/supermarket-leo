@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  
+  # Database
+  # Database
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/supermarket
+    username: postgres
+    password: postgres

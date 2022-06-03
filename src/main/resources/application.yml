@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  port: 8080
+  servlet:
+    context-path: /superMarketServices
+# swagger-ui custom path
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
